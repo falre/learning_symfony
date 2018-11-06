@@ -1,0 +1,13 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+# app/config/routing.yml
+
+  
+show_action:
+   path: /show/{id}
+   controller: App\Controller\Controller::show
+
+list_action:
+   path: /list
+   controller: App\Controller\Controller::list
